@@ -121,7 +121,7 @@
         "id": 10,
         "timestamp": 0.947,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -269,7 +269,7 @@
         "id": 22,
         "timestamp": 2.211,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -630,7 +630,7 @@
         "id": 52,
         "timestamp": 6.0,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -661,7 +661,7 @@
         "id": 54,
         "timestamp": 6.158,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -778,7 +778,7 @@
         "id": 64,
         "timestamp": 7.263,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -809,7 +809,7 @@
         "id": 66,
         "timestamp": 7.421,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -1580,7 +1580,7 @@
         "id": 120,
         "timestamp": 13.579,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -1749,7 +1749,7 @@
         "id": 130,
         "timestamp": 14.684,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -1764,7 +1764,7 @@
         "id": 131,
         "timestamp": 14.684,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -2011,7 +2011,7 @@
         "id": 147,
         "timestamp": 16.421,
         "hit_pos": 10,
-        "hold_pos": 5,
+        "hold_pos": 4,
         "note_width": [
             8,
             9,
@@ -2019,35 +2019,24 @@
             11
         ],
         "description": "s_end",
-        "command": "virtual_release",
+        "command": "release",
         "hitline": 1,
         "execution": "r"
-    },
-    {
-        "id": 147.5,
-        "timestamp": 16.461,
-        "hit_pos": -1,
-        "hold_pos": 5,
-        "note_width": [],
-        "description": "",
-        "command": "virtual_resume",
-        "hitline": 2,
-        "execution": "h"
     },
     {
         "id": 148,
         "timestamp": 16.579,
         "hit_pos": 7,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             6,
             7,
             8
         ],
         "description": "tap",
-        "command": "tap",
-        "hitline": 0,
-        "execution": "t"
+        "command": "resume",
+        "hitline": 2,
+        "execution": "h"
     },
     {
         "id": 149,
@@ -2356,7 +2345,7 @@
         "id": 169,
         "timestamp": 19.105,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -2371,7 +2360,7 @@
         "id": 170,
         "timestamp": 19.263,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -2401,7 +2390,7 @@
         "id": 172,
         "timestamp": 19.579,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -2416,7 +2405,7 @@
         "id": 173,
         "timestamp": 19.737,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -2784,7 +2773,7 @@
         "id": 193,
         "timestamp": 21.789,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -2800,7 +2789,7 @@
         "id": 194,
         "timestamp": 21.789,
         "hit_pos": 10,
-        "hold_pos": 5,
+        "hold_pos": 4,
         "note_width": [
             8,
             9,
@@ -2832,7 +2821,7 @@
         "id": 196,
         "timestamp": 21.947,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -2840,15 +2829,26 @@
             8
         ],
         "description": "s_end",
-        "command": "release",
+        "command": "virtual_release",
         "hitline": 1,
         "execution": "r"
+    },
+    {
+        "id": 196.5,
+        "timestamp": 21.987,
+        "hit_pos": -1,
+        "hold_pos": 3,
+        "note_width": [],
+        "description": "",
+        "command": "virtual_resume",
+        "hitline": 2,
+        "execution": "h"
     },
     {
         "id": 197,
         "timestamp": 22.105,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -2856,8 +2856,8 @@
             7
         ],
         "description": "s_end",
-        "command": "virtual_release",
-        "hitline": 1,
+        "command": "release",
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -2872,26 +2872,15 @@
             11
         ],
         "description": "s_start",
-        "command": "resume",
-        "hitline": 2,
-        "execution": "h"
-    },
-    {
-        "id": 197.5,
-        "timestamp": 22.145,
-        "hit_pos": -1,
-        "hold_pos": 3,
-        "note_width": [],
-        "description": "",
-        "command": "virtual_resume",
-        "hitline": 2,
-        "execution": "h"
+        "command": "tap",
+        "hitline": 0,
+        "execution": "t"
     },
     {
         "id": 199,
         "timestamp": 22.263,
         "hit_pos": 3,
-        "hold_pos": 1,
+        "hold_pos": 2,
         "note_width": [
             1,
             2,
@@ -2899,15 +2888,15 @@
             4
         ],
         "description": "s_start",
-        "command": "tap",
-        "hitline": 0,
-        "execution": "t"
+        "command": "resume",
+        "hitline": 1,
+        "execution": "h"
     },
     {
         "id": 200,
         "timestamp": 22.263,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -2915,15 +2904,26 @@
             8
         ],
         "description": "s_end",
-        "command": "release",
+        "command": "virtual_release",
         "hitline": 2,
         "execution": "r"
+    },
+    {
+        "id": 200.5,
+        "timestamp": 22.303,
+        "hit_pos": -1,
+        "hold_pos": 3,
+        "note_width": [],
+        "description": "",
+        "command": "virtual_resume",
+        "hitline": 1,
+        "execution": "h"
     },
     {
         "id": 201,
         "timestamp": 22.421,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -2931,8 +2931,8 @@
             7
         ],
         "description": "s_end",
-        "command": "virtual_release",
-        "hitline": 2,
+        "command": "release",
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -2947,26 +2947,15 @@
             11
         ],
         "description": "s_start",
-        "command": "resume",
-        "hitline": 1,
-        "execution": "h"
-    },
-    {
-        "id": 201.5,
-        "timestamp": 22.461,
-        "hit_pos": -1,
-        "hold_pos": 3,
-        "note_width": [],
-        "description": "",
-        "command": "virtual_resume",
-        "hitline": 1,
-        "execution": "h"
+        "command": "tap",
+        "hitline": 0,
+        "execution": "t"
     },
     {
         "id": 203,
         "timestamp": 22.579,
         "hit_pos": 3,
-        "hold_pos": 1,
+        "hold_pos": 2,
         "note_width": [
             1,
             2,
@@ -2974,15 +2963,15 @@
             4
         ],
         "description": "s_start",
-        "command": "tap",
-        "hitline": 0,
-        "execution": "t"
+        "command": "resume",
+        "hitline": 2,
+        "execution": "h"
     },
     {
         "id": 204,
         "timestamp": 22.579,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -2990,9 +2979,20 @@
             8
         ],
         "description": "s_end",
-        "command": "release",
+        "command": "virtual_release",
         "hitline": 1,
         "execution": "r"
+    },
+    {
+        "id": 204.5,
+        "timestamp": 22.619,
+        "hit_pos": -1,
+        "hold_pos": 3,
+        "note_width": [],
+        "description": "",
+        "command": "virtual_resume",
+        "hitline": 2,
+        "execution": "h"
     },
     {
         "id": 205,
@@ -3012,7 +3012,7 @@
     },
     {
         "id": 206,
-        "timestamp": 22.737,
+        "timestamp": 22.743,
         "hit_pos": 10,
         "hold_pos": 4,
         "note_width": [
@@ -3022,9 +3022,9 @@
             11
         ],
         "description": "tapfl_right",
-        "command": "resume",
-        "hitline": 2,
-        "execution": "h"
+        "command": "flick",
+        "hitline": 0,
+        "execution": "f"
     },
     {
         "id": 207,
@@ -3807,7 +3807,7 @@
         "id": 257,
         "timestamp": 29.053,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -3917,7 +3917,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -3928,7 +3928,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "h"
     },
     {
@@ -4147,7 +4147,7 @@
         "id": 280,
         "timestamp": 32.368,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -4162,7 +4162,7 @@
         "id": 281,
         "timestamp": 32.526,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -4264,7 +4264,7 @@
         "id": 288,
         "timestamp": 33.474,
         "hit_pos": 4,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -4577,7 +4577,7 @@
         "id": 309,
         "timestamp": 36.316,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -4608,7 +4608,7 @@
         "id": 311,
         "timestamp": 36.474,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -4684,7 +4684,7 @@
     },
     {
         "id": 320,
-        "timestamp": 37.565000000000005,
+        "timestamp": 37.585,
         "hit_pos": 5,
         "hold_pos": 2,
         "note_width": [
@@ -4886,7 +4886,7 @@
         "id": 333,
         "timestamp": 38.842,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -4901,7 +4901,7 @@
         "id": 334,
         "timestamp": 39.0,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -4977,7 +4977,7 @@
     },
     {
         "id": 344,
-        "timestamp": 40.091,
+        "timestamp": 40.111,
         "hit_pos": 6,
         "hold_pos": 3,
         "note_width": [
@@ -5163,7 +5163,7 @@
         "id": 355,
         "timestamp": 41.368,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -5194,7 +5194,7 @@
         "id": 357,
         "timestamp": 41.526,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -5512,7 +5512,7 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -5527,7 +5527,7 @@
         ],
         "description": "tap",
         "command": "resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -5550,7 +5550,7 @@
         "id": 385,
         "timestamp": 44.842,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -5871,7 +5871,7 @@
         "id": 422,
         "timestamp": 53.211,
         "hit_pos": 4,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -6046,7 +6046,7 @@
         "id": 436,
         "timestamp": 55.737,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             6,
             7,
@@ -6092,7 +6092,7 @@
         "id": 441,
         "timestamp": 56.053,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             6,
             7,
@@ -6204,7 +6204,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -6215,7 +6215,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -6268,7 +6268,7 @@
         "id": 451,
         "timestamp": 56.842,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -6314,7 +6314,7 @@
         "id": 456,
         "timestamp": 57.158,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -6587,7 +6587,7 @@
         "id": 476,
         "timestamp": 59.053,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -6602,7 +6602,7 @@
         "id": 477,
         "timestamp": 59.053,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -6771,7 +6771,7 @@
         "id": 490,
         "timestamp": 60.474,
         "hit_pos": 8,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             7,
             8
@@ -6799,7 +6799,7 @@
         "id": 492,
         "timestamp": 60.632,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -6845,7 +6845,7 @@
         "id": 497,
         "timestamp": 60.947,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -7053,7 +7053,7 @@
         "id": 513,
         "timestamp": 62.053,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             6,
             7,
@@ -7099,7 +7099,7 @@
         "id": 518,
         "timestamp": 62.368,
         "hit_pos": 7,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             6,
             7,
@@ -7211,7 +7211,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -7222,7 +7222,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "h"
     },
     {
@@ -7558,7 +7558,7 @@
         "id": 543,
         "timestamp": 64.895,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -7567,38 +7567,38 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
         "id": 544,
         "timestamp": 65.053,
         "hit_pos": 3,
-        "hold_pos": 1,
+        "hold_pos": 2,
         "note_width": [
             2,
             3,
             4
         ],
         "description": "tap",
-        "command": "tap",
-        "hitline": 0,
-        "execution": "t"
+        "command": "resume",
+        "hitline": 2,
+        "execution": "h"
     },
     {
         "id": 545,
         "timestamp": 65.053,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
             9
         ],
         "description": "tap",
-        "command": "resume",
-        "hitline": 1,
-        "execution": "h"
+        "command": "tap",
+        "hitline": 0,
+        "execution": "t"
     },
     {
         "id": 546,
@@ -7873,7 +7873,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -7884,7 +7884,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -8023,7 +8023,7 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -8038,7 +8038,7 @@
         ],
         "description": "tap",
         "command": "resume",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "h"
     },
     {
@@ -8140,7 +8140,7 @@
         "id": 590,
         "timestamp": 69.158,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -8155,7 +8155,7 @@
         "id": 591,
         "timestamp": 69.158,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -8500,7 +8500,7 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -8515,7 +8515,7 @@
         ],
         "description": "tap",
         "command": "resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -8786,7 +8786,7 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -8816,7 +8816,7 @@
         ],
         "description": "tapfl_up",
         "command": "resume",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "h"
     },
     {
@@ -8877,7 +8877,7 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -8893,7 +8893,7 @@
         ],
         "description": "tapfl_up",
         "command": "resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -8945,7 +8945,7 @@
         "id": 652,
         "timestamp": 75.164,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -10352,7 +10352,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -10379,7 +10379,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "h"
     },
     {
@@ -10503,7 +10503,7 @@
         ],
         "description": "s_end",
         "command": "release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -10549,7 +10549,7 @@
         ],
         "description": "tapfl_right",
         "command": "resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -10700,7 +10700,7 @@
         "id": 812,
         "timestamp": 96.316,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -10715,7 +10715,7 @@
         "id": 813,
         "timestamp": 96.474,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -10821,27 +10821,16 @@
         "id": 821,
         "timestamp": 97.263,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
             7
         ],
         "description": "s_end",
-        "command": "virtual_release",
-        "hitline": 2,
-        "execution": "r"
-    },
-    {
-        "id": 821.5,
-        "timestamp": 97.30300000000001,
-        "hit_pos": -1,
-        "hold_pos": 2,
-        "note_width": [],
-        "description": "",
-        "command": "virtual_resume",
+        "command": "release",
         "hitline": 1,
-        "execution": "h"
+        "execution": "r"
     },
     {
         "id": 822,
@@ -10854,9 +10843,9 @@
             9
         ],
         "description": "tap",
-        "command": "tap",
-        "hitline": 0,
-        "execution": "t"
+        "command": "resume",
+        "hitline": 2,
+        "execution": "h"
     },
     {
         "id": 823,
@@ -10923,7 +10912,7 @@
         "id": 827,
         "timestamp": 97.895,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 3,
         "note_width": [
             5,
             6,
@@ -10938,7 +10927,7 @@
         "id": 828,
         "timestamp": 98.053,
         "hit_pos": 8,
-        "hold_pos": 3,
+        "hold_pos": 4,
         "note_width": [
             7,
             8,
@@ -11032,7 +11021,7 @@
         "id": 834,
         "timestamp": 98.842,
         "hit_pos": 5,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -11063,7 +11052,7 @@
         "id": 836,
         "timestamp": 99.0,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -11275,7 +11264,7 @@
         "id": 851,
         "timestamp": 100.579,
         "hit_pos": 3,
-        "hold_pos": 2,
+        "hold_pos": 1,
         "note_width": [
             2,
             3,
@@ -11401,7 +11390,7 @@
         "id": 859,
         "timestamp": 101.526,
         "hit_pos": 6,
-        "hold_pos": 3,
+        "hold_pos": 2,
         "note_width": [
             4,
             5,
@@ -11511,7 +11500,7 @@
         "id": 866,
         "timestamp": 102.316,
         "hit_pos": 10,
-        "hold_pos": 5,
+        "hold_pos": 4,
         "note_width": [
             8,
             9,
@@ -11519,20 +11508,9 @@
             11
         ],
         "description": "s_end",
-        "command": "virtual_release",
-        "hitline": 1,
-        "execution": "r"
-    },
-    {
-        "id": 866.5,
-        "timestamp": 102.35600000000001,
-        "hit_pos": -1,
-        "hold_pos": 5,
-        "note_width": [],
-        "description": "",
-        "command": "virtual_resume",
+        "command": "release",
         "hitline": 2,
-        "execution": "h"
+        "execution": "r"
     },
     {
         "id": 867,
@@ -11546,9 +11524,9 @@
             9
         ],
         "description": "tap",
-        "command": "tap",
-        "hitline": 0,
-        "execution": "t"
+        "command": "resume",
+        "hitline": 1,
+        "execution": "h"
     },
     {
         "id": 868,
@@ -11617,7 +11595,7 @@
         "id": 872,
         "timestamp": 102.947,
         "hit_pos": 10,
-        "hold_pos": 5,
+        "hold_pos": 4,
         "note_width": [
             8,
             9,
@@ -11633,7 +11611,7 @@
         "id": 873,
         "timestamp": 103.105,
         "hit_pos": 8,
-        "hold_pos": 4,
+        "hold_pos": 3,
         "note_width": [
             6,
             7,
@@ -12192,7 +12170,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "r"
     },
     {
@@ -12203,7 +12181,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "h"
     },
     {
@@ -12502,7 +12480,7 @@
         ],
         "description": "s_end",
         "command": "virtual_release",
-        "hitline": 1,
+        "hitline": 2,
         "execution": "r"
     },
     {
@@ -12513,7 +12491,7 @@
         "note_width": [],
         "description": "",
         "command": "virtual_resume",
-        "hitline": 2,
+        "hitline": 1,
         "execution": "h"
     },
     {
@@ -12744,7 +12722,7 @@
         "id": 943,
         "timestamp": 113.368,
         "hit_pos": 10,
-        "hold_pos": 5,
+        "hold_pos": 4,
         "note_width": [
             8,
             9,
@@ -12966,7 +12944,7 @@
         "id": 973,
         "timestamp": 115.737,
         "hit_pos": 10,
-        "hold_pos": 5,
+        "hold_pos": 4,
         "note_width": [
             8,
             9,
@@ -13486,7 +13464,7 @@
         "id": 1001,
         "timestamp": 119.842,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 0,
         "note_width": [
             0,
             1,
@@ -13525,7 +13503,7 @@
         "id": 1003,
         "timestamp": 120.158,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 0,
         "note_width": [
             0,
             1,
@@ -13564,7 +13542,7 @@
         "id": 1005,
         "timestamp": 120.474,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 0,
         "note_width": [
             0,
             1,
@@ -13603,7 +13581,7 @@
         "id": 1007,
         "timestamp": 120.789,
         "hit_pos": 6,
-        "hold_pos": 2,
+        "hold_pos": 0,
         "note_width": [
             0,
             1,
